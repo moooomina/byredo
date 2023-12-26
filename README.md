@@ -9,8 +9,9 @@
 
 ## 작업하기
 * header
-1. 모바일용 nav 만들기
-2. footer 만들기
+1. 모바일용 nav 만들기 (m_nav로 제작)
+    div묶음(뒤에 배경어두워짐) 안에 div묶음(메뉴) - 위에 메뉴/m_nav/아래메뉴 3개로 구분해서 제작
+2. footer 만들기 div2개(top,bottom) - top -> div4개 ->
 
 * main페이지
 1. 4행을 다 채우는 큰 이미지는 a로 묶고, 양쪽 아래 글씨는 span로 만들기
