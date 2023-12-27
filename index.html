@@ -460,16 +460,18 @@
             </div>
         </div>
         <!-- 장바구니 -->
-        <div class="bg">
+        <div class="cartBg">
             <div class="cart">
                 <div class="bagTop">
                     <h1>Bag</h1>
                     <a href="#" class="close"><img src="#" alt="닫기"></a>
                 </div>
                 <p class="bagList">You have no items in your shopping cart.</p>
+                <a href="#">Continue shopping</a>
                 <ul class="bagBottom">
                     <li>
-                        <img src="#" alt="">Secure payments<img src="#" alt=""><img src="#" alt=""><img src="#" alt=""><img src="#" alt=""><img src="#" alt="">
+                        <span><img src="#" alt="">Secure payments<img src="#" alt=""></span>
+                        <span><img src="#" alt=""><img src="#" alt=""><img src="#" alt=""><img src="#" alt=""></span>
                     </li>
                     <li><img src="#" alt="">Free Shipping & 30 days free returns</li>
                     <li><img src="#" alt="">Customer care 24/7 <a href="#">+33 (0)186 476 005</a></li>
@@ -482,11 +484,11 @@
         <div class="m_header">
             <a href="#"><img src="#" alt="메뉴보기"></a>
             <ul id="gnb">
-                <li class="menuTitle"><a href="#">Perfume</a></li>
-                <li class="menuTitle"><a href="#">Makeup</a></li>
-                <li class="menuTitle"><a href="#">Home fragrance</a></li>
-                <li class="menuTitle"><a href="#">Hand & body care</a></li>
-                <li class="menuTitle"><a href="#">Byproduct™</a></li>
+                <li><a href="#">Perfume</a></li>
+                <li><a href="#">Makeup</a></li>
+                <li><a href="#">Home fragrance</a></li>
+                <li><a href="#">Hand & body care</a></li>
+                <li><a href="#">Byproduct™</a></li>
             </ul>
         </div>
         <div class="sideOpen">
@@ -494,88 +496,98 @@
                 <a href="#" class="close"><img src="#" alt="닫기"></a>
                 <nav class="m_navOpen">
                     <ul id="m_gnb">
-                        <li><a href="#">Perfume <img src="#" alt="더보기"></a></li>
-                        <div class="m_subWrapPerfume"> <!-- 향수 -->
-                            <ul> <!-- Categories -->
-                                <li class="subTitle">Categories</li>
-                                <li><a href="#">Shop all</a></li>
-                                <li><a href="#">Perfumes</a></li>
-                                <li><a href="#">Discovery set</a></li>
-                                <li><a href="#">Travel editions</a></li>
-                                <li><a href="#">Perfume extracts</a></li>
-                                <li><a href="#">Hair perfumes</a></li>
-                                <li><a href="#">Roll-on perfumed oils</a></li>
-                            </ul>
-                            <ul> <!-- Best sellers -->
-                                <li class="subTitle">Best sellers</li>
-                                <li><a href="#">Bal d'Afrique</a></li>
-                                <li><a href="#">Mojave Ghost</a></li>
-                                <li><a href="#">Gypsy Water</a></li>
-                                <li><a href="#">Rose of No Man's Land</a></li>
-                                <li><a href="#">Blanche</a></li>
-                            </ul>
-                        </div>
-                        <li><a href="#">Makeup <img src="#" alt="더보기"></a></li>
-                        <div class="m_subWrapMakeup"> <!-- 메이크업 -->
-                            <ul> <!-- Categories -->
-                                <li class="subTitle">Categories</li>
-                                <li><a href="#">Shop all</a></li>
-                                <li><a href="#">Eyes</a></li>
-                                <li><a href="#">Lips</a></li>
-                                <li><a href="#">Face</a></li>
-                                <li><a href="#">Accessories</a></li>
-                            </ul>
-                            <ul> <!-- Products -->
-                                <li class="subTitle"></li>
-                                <li><a href="#">Mascara</a></li>
-                                <li><a href="#">Eyeliner</a></li>
-                                <li><a href="#">Eyeshadow</a></li>
-                                <li><a href="#">Lipstick</a></li>
-                                <li><a href="#">Lip Balm</a></li>
-                                <li><a href="#">Colour Stick</a></li>
-                                <li><a href="#">Pencil</a></li>
-                            </ul>
-                        </div>
-                        <li><a href="#">Home fragrance <img src="#" alt="더보기"></a></li>
-                        <div class="subWrapHome"> <!-- 홈프라그란스 -->
-                            <ul> <!-- Categories -->
-                                <li class="subTitle">Categories</li>
-                                <li><a href="#">Shop all</a></li>
-                                <li><a href="#">Candles</a></li>
-                                <li><a href="#">Home fragrances</a></li>
-                                <li><a href="#">Textile perfume</a></li>
-                                <li><a href="#">Bentgablenits</a></li>
-                                <li><a href="#">Accessories</a></li>
-                            </ul>
-                        </div>
-                        <li><a href="#">Hand & body care <img src="#" alt="더보기"></a></li>
-                        <div class="subWrapCare"> <!-- 핸드바디케어 -->
-                            <ul> <!-- Categories -->
-                                <li class="subTitle">Categories</li>
-                                <li><a href="#">Shop all</a></li>
-                                <li><a href="#">Hand care</a></li>
-                                <li><a href="#">body care</a></li>
-                            </ul>
-                        </div>
-                        <li><a href="#">Byproduct™ <img src="#" alt="더보기"></a></li>
-                        <div class="subWrapProduct"> <!-- 바이프로덕트 -->
-                            <ul> <!-- Categories -->
-                                <li class="subTitle">Categories</li>
-                                <li><a href="#">Latest drop</a></li>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Fashion</a></li>
-                                <li><a href="#">About Byproduct</a></li>
-                            </ul>
-                            <ul> <!-- Products -->
-                                <li class="subTitle"></li>
-                                <li><a href="#">Eyewear</a></li>
-                                <li><a href="#">Leather goods</a></li>
-                                <li><a href="#">Apparel</a></li>
-                                <li><a href="#">Home textile</a></li>
-                                <li><a href="#">Objects</a></li>
-                                <li><a href="#">Tea</a></li>
-                            </ul>
-                        </div>
+                        <li><!-- 향수 -->
+                            <a href="#">Perfume <img src="#" alt="더보기"></a>
+                            <div class="m_subWrapPerfume">
+                                <ul> <!-- Categories -->
+                                    <li class="subTitle">Categories</li>
+                                    <li><a href="#">Shop all</a></li>
+                                    <li><a href="#">Perfumes</a></li>
+                                    <li><a href="#">Discovery set</a></li>
+                                    <li><a href="#">Travel editions</a></li>
+                                    <li><a href="#">Perfume extracts</a></li>
+                                    <li><a href="#">Hair perfumes</a></li>
+                                    <li><a href="#">Roll-on perfumed oils</a></li>
+                                </ul>
+                                <ul> <!-- Best sellers -->
+                                    <li class="subTitle">Best sellers</li>
+                                    <li><a href="#">Bal d'Afrique</a></li>
+                                    <li><a href="#">Mojave Ghost</a></li>
+                                    <li><a href="#">Gypsy Water</a></li>
+                                    <li><a href="#">Rose of No Man's Land</a></li>
+                                    <li><a href="#">Blanche</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><!-- 메이크업 -->
+                            <a href="#">Makeup <img src="#" alt="더보기"></a>
+                            <div class="m_subWrapMakeup">
+                                <ul> <!-- Categories -->
+                                    <li class="subTitle">Categories</li>
+                                    <li><a href="#">Shop all</a></li>
+                                    <li><a href="#">Eyes</a></li>
+                                    <li><a href="#">Lips</a></li>
+                                    <li><a href="#">Face</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                </ul>
+                                <ul> <!-- Products -->
+                                    <li class="subTitle"></li>
+                                    <li><a href="#">Mascara</a></li>
+                                    <li><a href="#">Eyeliner</a></li>
+                                    <li><a href="#">Eyeshadow</a></li>
+                                    <li><a href="#">Lipstick</a></li>
+                                    <li><a href="#">Lip Balm</a></li>
+                                    <li><a href="#">Colour Stick</a></li>
+                                    <li><a href="#">Pencil</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><!-- 홈프라그란스 -->
+                            <a href="#">Home fragrance <img src="#" alt="더보기"></a>
+                            <div class="subWrapHome">
+                                <ul> <!-- Categories -->
+                                    <li class="subTitle">Categories</li>
+                                    <li><a href="#">Shop all</a></li>
+                                    <li><a href="#">Candles</a></li>
+                                    <li><a href="#">Home fragrances</a></li>
+                                    <li><a href="#">Textile perfume</a></li>
+                                    <li><a href="#">Bentgablenits</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><!-- 핸드바디케어 -->
+                            <a href="#">Hand & body care <img src="#" alt="더보기"></a>
+                            <div class="subWrapCare">
+                                <ul> <!-- Categories -->
+                                    <li class="subTitle">Categories</li>
+                                    <li><a href="#">Shop all</a></li>
+                                    <li><a href="#">Hand care</a></li>
+                                    <li><a href="#">body care</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><!-- 바이프로덕트 -->
+                            <a href="#">Byproduct™ <img src="#" alt="더보기"></a>
+                            <div class="subWrapProduct">
+                                <ul> <!-- Categories -->
+                                    <li class="subTitle">Categories</li>
+                                    <li><a href="#">Latest drop</a></li>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Fashion</a></li>
+                                    <li><a href="#">About Byproduct</a></li>
+                                </ul>
+                                <ul> <!-- Products -->
+                                    <li class="subTitle"></li>
+                                    <li><a href="#">Eyewear</a></li>
+                                    <li><a href="#">Leather goods</a></li>
+                                    <li><a href="#">Apparel</a></li>
+                                    <li><a href="#">Home textile</a></li>
+                                    <li><a href="#">Objects</a></li>
+                                    <li><a href="#">Tea</a></li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </nav>
                 <div class="sideMenuBottom">
