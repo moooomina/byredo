@@ -458,62 +458,365 @@
             </div>
         </div>
         <!-- tablet,mobile nav -->
-        <nav>
+        <nav class="m_nav">
+            <div class="free">
+                <div class="txt"> <!-- desktop:5-4개 / tablet:4-3개 / mobile:2-1개 -->
+                    <span>Free shipping & returns. 2 Free Samples.</span>
+                    <sppn>Free shipping & returns. 2 Free Samples.</sppn>
+                    <span>Free shipping & returns. 2 Free Samples.</span>
+                    <span>Free shipping & returns. 2 Free Samples.</span>
+                    <span>Free shipping & returns. 2 Free Samples.</span>
+                    <span>Free shipping & returns. 2 Free Samples.</span>
+                </div>
+                <a href="#" class="close"><img src="./images/main/close.svg" alt="닫기"></a>
+            </div>
+            <div class="m_header">
+                <a href="#"><img src="#" alt="메뉴보기"></a>
+                <h1><img src="./images/main/logo.png" alt="BYREDO"></h1>
+                <div class="m_icon">
+                    <div class="search">
+                        <a href="#"><img src="#" alt="검색"></a>
+                        <div class="searchFrm"> <!-- 검색창 -->
+                            <form action="#" method="get" id="searchFrm">
+                                <fieldset>
+                                    <legend class="skip">검색</legend>
+                                    <input type="search" placeholder="Search" name="searchTxt" class="searchTxt">
+                                    <button type="submit" id="search"><img src="#" alt="검색하기"></button>
+                                    <a href="#" class="close"><img src="#" alt="닫기"></a>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="cart"> <!-- 장바구니 -->
+                        <a href="#"><img src="#" alt="장바구니"></a>
+                        <div class="bag">
+                            <div class="bagTop">
+                                <span>Bag</span>
+                                <a href="#"><img src="#" alt="닫기"></a>
+                            </div>
+                            <div class="bagList">You have no items in your shopping cart.</div>
+                            <div class="bagBottom">
+                                <span>
+                                    <img src="#" alt="">Secure payments<img src="#" alt=""><img src="#" alt=""><img src="#" alt=""><img src="#" alt=""><img src="#" alt="">
+                                </span>
+                                <span><img src="#" alt="">Free Shipping & 30 days free returns</span>
+                                <span><img src="#" alt="">Customer care 24/7 <a href="#">+33 (0)186 476 005</a></span>
+                                <span><img src="#" alt="">A Byredo Wrapping</span>
+                                <span><img src="#" alt="">2 complimentary samples</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m_headerBottom">
+                <ul id="gnb">
+                    <li class="menuTitle"><a href="#">Perfume</a></li>
+                    <li class="menuTitle"><a href="#">Makeup</a></li>
+                    <li class="menuTitle"><a href="#">Home fragrance</a></li>
+                    <li class="menuTitle"><a href="#">Hand & body care</a></li>
+                    <li class="menuTitle"><a href="#">Byproduct™</a></li>
+                </ul>
+            </div>
         </nav>
+        <div class="sideOpen">
+            <div class="bg">
+                <div class="sideMenu">
+                    <a href="#"><img src="#" alt="닫기"></a>
+                    <nav class="m_navOpen">
+                        <ul id="m_gnb">
+                            <li class="menuTitle"><a href="#">Perfume <img src="#" alt="더보기"></a></li>
+                            <li class="menuTitle"><a href="#">Makeup <img src="#" alt="더보기"></a></li>
+                            <li class="menuTitle"><a href="#">Home fragrance <img src="#" alt="더보기"></a></li>
+                            <li class="menuTitle"><a href="#">Hand & body care <img src="#" alt="더보기"></a></li>
+                            <li class="menuTitle"><a href="#">Byproduct™ <img src="#" alt="더보기"></a></li>
+                        </ul>
+                        <div class="m_subWrapPerfume"> <!-- 향수 -->
+                            <ul> <!-- Categories -->
+                                <li class="subTitle">Categories</li>
+                                <li><a href="#">Shop all</a></li>
+                                <li><a href="#">Perfumes</a></li>
+                                <li><a href="#">Discovery set</a></li>
+                                <li><a href="#">Travel editions</a></li>
+                                <li><a href="#">Perfume extracts</a></li>
+                                <li><a href="#">Hair perfumes</a></li>
+                                <li><a href="#">Roll-on perfumed oils</a></li>
+                            </ul>
+                            <ul> <!-- Best sellers -->
+                                <li class="subTitle">Best sellers</li>
+                                <li><a href="#">Bal d'Afrique</a></li>
+                                <li><a href="#">Mojave Ghost</a></li>
+                                <li><a href="#">Gypsy Water</a></li>
+                                <li><a href="#">Rose of No Man's Land</a></li>
+                                <li><a href="#">Blanche</a></li>
+                            </ul>
+                        </div>
+                        <div class="m_subWrapMakeup"> <!-- 메이크업 -->
+                            <ul> <!-- Categories -->
+                                <li class="subTitle">Categories</li>
+                                <li><a href="#">Shop all</a></li>
+                                <li><a href="#">Eyes</a></li>
+                                <li><a href="#">Lips</a></li>
+                                <li><a href="#">Face</a></li>
+                                <li><a href="#">Accessories</a></li>
+                            </ul>
+                            <ul> <!-- Products -->
+                                <li class="subTitle"></li>
+                                <li><a href="#">Mascara</a></li>
+                                <li><a href="#">Eyeliner</a></li>
+                                <li><a href="#">Eyeshadow</a></li>
+                                <li><a href="#">Lipstick</a></li>
+                                <li><a href="#">Lip Balm</a></li>
+                                <li><a href="#">Colour Stick</a></li>
+                                <li><a href="#">Pencil</a></li>
+                            </ul>
+                        </div>
+                        <div class="subWrapHome"> <!-- 홈프라그란스 -->
+                            <ul> <!-- Categories -->
+                                <li class="subTitle">Categories</li>
+                                <li><a href="#">Shop all</a></li>
+                                <li><a href="#">Candles</a></li>
+                                <li><a href="#">Home fragrances</a></li>
+                                <li><a href="#">Textile perfume</a></li>
+                                <li><a href="#">Bentgablenits</a></li>
+                                <li><a href="#">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="subWrapCare"> <!-- 핸드바디케어 -->
+                            <ul> <!-- Categories -->
+                                <li class="subTitle">Categories</li>
+                                <li><a href="#">Shop all</a></li>
+                                <li><a href="#">Hand care</a></li>
+                                <li><a href="#">body care</a></li>
+                            </ul>
+                        </div>
+                        <div class="subWrapProduct"> <!-- 바이프로덕트 -->
+                            <ul> <!-- Categories -->
+                                <li class="subTitle">Categories</li>
+                                <li><a href="#">Latest drop</a></li>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Fashion</a></li>
+                                <li><a href="#">About Byproduct</a></li>
+                            </ul>
+                            <ul> <!-- Products -->
+                                <li class="subTitle"></li>
+                                <li><a href="#">Eyewear</a></li>
+                                <li><a href="#">Leather goods</a></li>
+                                <li><a href="#">Apparel</a></li>
+                                <li><a href="#">Home textile</a></li>
+                                <li><a href="#">Objects</a></li>
+                                <li><a href="#">Tea</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="sideMenuBottom">
+                        <a href="#"><img src="#" alt="">France <img src="#" alt="더보기"></a>
+                        <!-- 언어선택 -->
+                        <div class="langSelect">
+                            <img src="#" alt=""><a href="#">Austria</a>
+                            <img src="#" alt=""><a href="#">Belgium</a>
+                            <img src="#" alt=""><a href="#">Bulgaria</a>
+                            <img src="#" alt=""><a href="#">Canada</a>
+                            <img src="#" alt=""><a href="#">Croatia</a>
+                            <img src="#" alt=""><a href="#">Czechia</a>
+                            <img src="#" alt=""><a href="#">Denmark</a>
+                            <img src="#" alt=""><a href="#">Estonia</a>
+                            <img src="#" alt=""><a href="#">Finland</a>
+                            <img src="#" alt=""><a href="#">Germany</a>
+                            <img src="#" alt=""><a href="#">Greece</a>
+                            <img src="#" alt=""><a href="#">Hungary</a>
+                            <img src="#" alt=""><a href="#">Ireland</a>
+                            <img src="#" alt=""><a href="#">Italy</a>
+                            <img src="#" alt=""><a href="#">Japan</a>
+                            <img src="#" alt=""><a href="#">Latvia</a>
+                            <img src="#" alt=""><a href="#">Luxembourg</a>
+                            <img src="#" alt=""><a href="#">Netherlands</a>
+                            <img src="#" alt=""><a href="#">Poland</a>
+                            <img src="#" alt=""><a href="#">Portugal</a>
+                            <img src="#" alt=""><a href="#">Romania</a>
+                            <img src="#" alt=""><a href="#">Slovakia</a>
+                            <img src="#" alt=""><a href="#">Slovenia</a>
+                            <img src="#" alt=""><a href="#">Spain</a>
+                            <img src="#" alt=""><a href="#">Sweden</a>
+                            <img src="#" alt=""><a href="#">United Kingdom</a>
+                            <img src="#" alt=""><a href="#">United States</a>
+                        </div>
+                        <a href="#"><img src="#" alt="">English <img src="#" alt="더보기"></a>
+                        <div class="enSelect">
+                            <a href="#">Deutsch</a>
+                            <a href="#">Français</a>
+                            <a href="#">Italiano</a>
+                        </div>
+                        <div class="mypage">
+                            <a href="#"><img src="#" alt="마이페이지">Account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <!-- main -->
     <main>
-        <a href="#" class="mainImg"><!-- background img 배너 -->
-            <a href="#">Holiday 2023</a>
-            <a href="#">shop</a>
-        </a>
+        <div class="mainImg"><!-- background img 배너 -->
+            <span>Holiday 2023</span>
+            <a href="#"><img src="./images/main/main_2880x1120.jpg" alt=""></a>
+            <span>shop</span>
+        </div>
         <div class="productWrap"><!-- 2번째 행 img -->
-            <a href="#" class="product">
-                <h2>La Grande Découverte</h2>
-                <p>€255</p>
-            </a>
-            <a href="#" class="product">
-                <h2>Animalique</h2>
-                <p>€220</p>
-            </a>
-            <a href="#" class="product">
-                <h2>Bal d'Afrique</h2>
-                <p>€220</p>
-            </a>
-            <a href="#" class="product">
-                <h2>Blanche</h2>
-                <p>€220</p>
-            </a>
+            <div class="product">
+                <span>La Grande Découverte</span>
+                <a href="#"><img src="" alt=""></a>
+                <span>€255</span>
+            </div>
+            <div class="product">
+                <span>Animalique</span>
+                <a href="#"><img src="" alt=""></a>
+                <span>€220</span>
+            </div>
+            <div class="product">
+                <span>Bal d'Afrique</span>
+                <a href="#"><img src="" alt=""></a>
+                <span>€220</span>
+            </div>
+            <div class="product">
+                <span>Blanche</span>
+                <a href="#"><img src="" alt=""></a>
+                <span>€220</span>
+            </div>
         </div>
-        <a href="#" class="mainImg"><!-- 3번째 행 img -->
-            <a href="#">Holiday 2023</a>
-            <a href="#">shop</a>
-        </a>
+        <div class="mainImg"><!-- 3번째 행 img -->
+            <span>Gift Selection</span>
+            <a href="#"><img src="./images/main/main_center_2880x1120.jpg" alt=""></a>
+            <span>shop</span>
+        </div>
         <div class="productWrap"><!-- 4번째 행 img -->
-            <a href="#" class="product">
-                <h2>Susanne Kaufmann Body Oil</h2>
-                <p>€90</p>
-            </a>
-            <a href="#" class="product">
-                <h2>Rouge Chaotique</h2>
-                <p>€270</p>
-            </a>
-            <a href="#" class="product">
-                <h2>Susanne Kaufmann Roll-on</h2>
-                <p>€110</p>
-            </a>
-            <a href="#" class="product">
-                <h2>Sweet Grass</h2>
-                <p>€70</p>
-            </a>
+            <div class="product">
+                <span>Susanne Kaufmann Body Oil</span>
+                <a href="#"><img src="" alt=""></a>
+                <span>€90</span>
+            </div>
+            <div class="product">
+                <span>Rouge Chaotique</span>
+                <a href="#"><img src="" alt=""></a>
+                <span>€270</span>
+            </div>
+            <div class="product">
+                <span>Susanne Kaufmann Roll-on</span>
+                <a href="#"><img src="" alt=""></a>
+                <span>€110</span>
+            </div>
+            <div class="product">
+                <span>Sweet Grass</span>
+                <a href="#"><img src="" alt=""></a>
+                <span>€70</span>
+            </div>
         </div>
-        <a href="#" class="mainImg"><!-- 5번째 행 img -->
-            <a href="#">Holiday 2023</a>
-            <a href="#">shop</a>
-        </a>
+        <div class="mainImg"><!-- 5번째 행 img -->
+            <span>Holiday 2023</span>
+            <a href="#"><img src="./images/main/main_bottom_2880x1120.jpg" alt=""></a>
+            <span>shop</span>
+        </div>
     </main>
     <!-- footer -->
     <footer>
+        <div class="footerTop">
+            <div class="left">
+                <div class="leftTop">
+                    <a href="#"><img src="#" alt=""> France <img src="#" alt="더보기"></a>
+                    <!-- 언어선택 -->
+                    <div class="langSelect">
+                        <img src="#" alt=""><a href="#">Austria</a>
+                        <img src="#" alt=""><a href="#">Belgium</a>
+                        <img src="#" alt=""><a href="#">Bulgaria</a>
+                        <img src="#" alt=""><a href="#">Canada</a>
+                        <img src="#" alt=""><a href="#">Croatia</a>
+                        <img src="#" alt=""><a href="#">Czechia</a>
+                        <img src="#" alt=""><a href="#">Denmark</a>
+                        <img src="#" alt=""><a href="#">Estonia</a>
+                        <img src="#" alt=""><a href="#">Finland</a>
+                        <img src="#" alt=""><a href="#">Germany</a>
+                        <img src="#" alt=""><a href="#">Greece</a>
+                        <img src="#" alt=""><a href="#">Hungary</a>
+                        <img src="#" alt=""><a href="#">Ireland</a>
+                        <img src="#" alt=""><a href="#">Italy</a>
+                        <img src="#" alt=""><a href="#">Japan</a>
+                        <img src="#" alt=""><a href="#">Latvia</a>
+                        <img src="#" alt=""><a href="#">Luxembourg</a>
+                        <img src="#" alt=""><a href="#">Netherlands</a>
+                        <img src="#" alt=""><a href="#">Poland</a>
+                        <img src="#" alt=""><a href="#">Portugal</a>
+                        <img src="#" alt=""><a href="#">Romania</a>
+                        <img src="#" alt=""><a href="#">Slovakia</a>
+                        <img src="#" alt=""><a href="#">Slovenia</a>
+                        <img src="#" alt=""><a href="#">Spain</a>
+                        <img src="#" alt=""><a href="#">Sweden</a>
+                        <img src="#" alt=""><a href="#">United Kingdom</a>
+                        <img src="#" alt=""><a href="#">United States</a>
+                    </div>
+                    <a href="#"><img src="#" alt=""> English <img src="#" alt="더보기"></a>
+                    <div class="enSelect">
+                        <a href="#">Deutsch</a>
+                        <a href="#">Français</a>
+                        <a href="#">Italiano</a>
+                    </div>
+                    <a href="#"><img src="#" alt="">Account</a>
+                </div>
+                <div class="leftbottom">
+                    <h2>Customer care</h2>
+                    <a href="#"><img src="#" alt="">Email customer care</a>
+                    <a href="#"><img src="#" alt="">+33 (0)186 476 005</a>
+                    <a href="#"><img src="#" alt="">Live chat</a>
+                </div>
+            </div>
+            <div class="Help">
+                <h2>Help</h2>
+                <a href="#">About</a>
+                <a href="#">Shipping</a>
+                <a href="#">Returns</a>
+                <a href="#">FAQ</a>
+                <a href="#">Contact</a>
+                <a href="#">T&C</a>
+                <a href="#">Privacy policy</a>
+                <a href="#">Cookie policy</a>
+                <a href="#">Terms of use</a>
+                <a href="#">Cookies Settings</a>
+                <a href="#">Sitemap</a>
+            </div>
+            <div class="Exclusive">
+                <h2>Exclusive services</h2>
+                <p>- Free shipping</p>
+                <p>- 30 days free returns</p>
+                <p>- Secure payments</p>
+                <p>- BYREDO wrapping</p>
+                <p>- Complimentary samples of your choice</p>
+            </div>
+            <div class="right">
+                <div class="store">
+                    <h2>Store locator</h2>
+                    <a href="#">Find your store</a>
+                </div>
+                <div class="stay">
+                    <h2>Stay in the know</h2>
+                    <p>Receive email updates from Byredo (including launch announcement, product info and exclusive access).</p>
+                    <form action="#" method="get" id="searchFrm">
+                        <fieldset>
+                            <legend class="skip">정보받기</legend>
+                            <input type="text" placeholder="Email address" name="emailTxt" class="emailTxt">
+                            <button type="submit" id="ok">OK</button>
+                        </fieldset>
+                    </form>
+                    <p>This is a required field.</p> <!-- 아무것도 안적고 누르면 뜨는 알림창 (기존에는 숨기기) -->
+                    <p>You can unsubscribe any time by using the link in our emails.</p>
+                    <p class="subTxt">Please see our <em>Privacy Policy</em> for more information about how we handle and use personal information.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <p>© Byredo</p>
+            <div class="sns">
+                <a href="#"><img src="#" alt="페이스북"></a>
+                <a href="#"><img src="#" alt="인스타그램"></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
